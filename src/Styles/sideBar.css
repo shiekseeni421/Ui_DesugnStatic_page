@@ -1,0 +1,51 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sidebar-container {
+  background-color: white;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 0.5px;
+  border: 0px;
+}
+
+.sidebar-firstEl {
+  margin-top: 10px;
+  font-size: 35px;
+  color: blueviolet;
+}
+
+.sidebar-middleicon {
+  margin-top: 51px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 25px;
+  color: #2bc6e2;
+}
+
+.eachicon {
+  margin: 10px;
+}
+
+.side-power-icon {
+  margin-top: 180px;
+  margin-bottom: 27px;
+}
+/*# sourceMappingURL=sideBar.css.map */

@@ -1,0 +1,37 @@
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Main_Container{
+  background-color:rgb(128, 128, 128);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.sub_container{
+  width: 90%;
+  height: 85%;
+  display: flex;
+  border-radius: 25px;
+  flex-wrap: wrap;
+
+}
+
+.sidebar_Container{
+  width: 6%;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.Nav-context-container{
+  width: 90%;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
